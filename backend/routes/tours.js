@@ -18,7 +18,7 @@ router.delete('/:id', verifyAdmin, deleteTour);
 // get Single tour
 router.get('/:id', getSingleTour);
 
-// get All tour
+// get All tour 
 router.get('/', getAllTour);
 
 

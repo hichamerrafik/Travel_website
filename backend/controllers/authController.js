@@ -26,6 +26,7 @@ export const register = async(req,res)=>{
         res.status(500).json({success:false, message:" failed ro create. try again "})
 
     }
+    
 }
 
 
